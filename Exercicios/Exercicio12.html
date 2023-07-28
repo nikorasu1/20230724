@@ -1,0 +1,35 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio12</title>
+</head>
+<body>
+    <script>
+        var peso, alt, r;
+
+        peso = parseFloat(window.prompt("Informe seu peso:","0"));
+
+        alt = parseFloat(window.prompt("Informe sua altura:","0"));
+
+        r = peso/Math.pow(alt, 2);
+
+
+        if (r<20)
+        {
+            document.write("Abaixo do peso");
+        }
+
+        else if (r>=20 && r<25)
+
+        {
+            document.write("Peso ideal");
+        }
+
+        else if (r>=25)
+
+        {
+            document.write("Acima do peso");
+        }
+    </script>
+</body>
+</html>
